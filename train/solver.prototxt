@@ -1,0 +1,16 @@
+net: "net.prototxt"
+
+lr_policy: "step"
+
+max_iter: 10000
+stepsize: 20000
+
+base_lr: 0.00001
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 500
+
+snapshot: 1000
+
+snapshot_prefix: "./models/"
